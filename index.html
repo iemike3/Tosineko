@@ -1,13 +1,86 @@
 <html prefix="og: http://ogp.me/ns#">
   <head>
     <title>ホーム｜TosiNeko Network</title>
+    <meta charset="utf-8">
     <meta property="og:url" content="https://iemike3.github.io/tosineko.github.io/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="ホーム" />
     <meta property="og:description" content="Tosirukun Networkの中身の一部かもしれない" />
     <meta property="og:site_name" content="TosiNeko Network" />
   </head>
+  <style>
+      * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background-color: #e6e6e6;
+    }
+    header {
+        padding: 30px 4% 10px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+    }
+    h1 {
+        margin: 0; padding: 0;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    a {	
+        text-decoration: none;
+        color: #4b4b4b;
+    }
+    nav {
+        margin: 0 0 0 auto;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        display: flex;
+    }
+    li {
+        margin: 0 0 0 15px;
+        font-size: 14px;
+    }
+    .h1 {
+        text-align: center;
+        padding: 0.5em;/*文字周りの余白*/
+        color: #494949;/*文字色*/
+        background: #fffaf4;/*背景色*/
+        border-left: solid 5px #ffaf58;/*左線（実線 太さ 色）*/
+    }
+
+  </style>
+  <script>
+      function login() {
+          window.alert("だーかーら機能してねえよ！！")
+      }
+  </script>
   <body>
-    TosiNeko Network
+    <header>
+        <h1>
+            <a href="/">TosiNeko Network</a>
+        </h1>
+        <nav class="pc-nav">
+            <ul>
+                <li><a href="https://web.tosineko.tk/">ホーム</a></li>
+                <li><a href="https://web.tosirukun.tk/network/">本家</a></li>
+                <li><a onclick="login()" href="">ログイン（機能していない）</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br><br>
+    <div>
+        <h2 class="h1">Welcome!</h1>
+        <div style="text-align: center;">
+            ようこそ！
+        </div>
+    </div>
   </body>
 </html>
